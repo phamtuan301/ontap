@@ -1,7 +1,6 @@
 #include <stdio.h>
-#define MAX 100
 int n;
-int arr[MAX];
+int arr[];
 int isprime(int num) {
     if (num <= 1) return 0;
     for (int i = 2; i * i <= num; i++) {
