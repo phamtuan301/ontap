@@ -1,6 +1,6 @@
 #include <stdio.h>
 int n;
-int arr[];
+int arr[100];
 int isprime(int num) {
     if (num <= 1) return 0;
     for (int i = 2; i * i <= num; i++) {
