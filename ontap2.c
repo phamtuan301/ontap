@@ -1,6 +1,5 @@
 #include <stdio.h>
-#define MAX 100
-int arr[MAX][MAX];
+int arr[100][100];
 int m, n;
 int main() {
     int choice;
