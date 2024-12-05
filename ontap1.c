@@ -82,7 +82,7 @@ int main() {
                 // Xoa phan tu trong mang
                 printf("Nhap gia tri phan tu can xoa: ");
                 scanf("%d", &value);
-                found = 0;
+                found = -11;
                 for (int i = 0; i < n; i++) {
                     if (arr[i] == value) {
                         for (int j = i; j < n - 1; j++) {
@@ -119,7 +119,7 @@ int main() {
                 // Tim kiem phan tu nhap vao va in ra vi tri phan tu trong mang
                 printf("Nhap gia tri phan tu can tim: ");
                 scanf("%d", &value);
-                found = 0;
+                found = -1;
                 for (int i = 0; i < n; i++) {
                     if (arr[i] == value) {
                         printf("Phan tu %d tim thay tai vi tri index %d\n", value, i);
